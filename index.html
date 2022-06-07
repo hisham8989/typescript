@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Program for ts</title>
     <script src="index.js" defer></script>
-    <script src="tupple.js" defer></script>
+    <script src="tuple.js" defer></script>
+    <script src="enum.js" defer></script>
   </head>
   <body>
     <h1>TypeScript</h1>
@@ -58,7 +59,28 @@
             use as <br />
             <br />
             let role:[string,string,number,number] = ['admin','manager',1,5]
-            let role:[string,string,number,number,boolean?] = ['admin','manager',1,5]
+            <br />
+            <br />
+            let role:[string,string,number,number,boolean?] =
+            ['admin','manager',1,5]
+          </p>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary><b>Enum</b></summary>
+          <p>
+            define as <br />
+            <br />
+            it just index the variable defined in it
+          </p>
+          <hr />
+          <p>
+            define as <br />
+            <br />
+            enum Role { <br />
+            &nbsp; ADMIN,MANAGER,READ_ONLY_USER <br />
+          } 
           </p>
         </details>
       </li>
